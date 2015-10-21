@@ -1,3 +1,13 @@
+<?php
+  if($is_front){
+    $title = ''; // This is optional ... it removes the default Welcome to @site-name
+    $page['content']['system_main']['default_message'] = array(); // This will remove the 'No front page content has been created yet.'
+  }
+?>
+
+
+
+
 <div id="page" class="page-default">
   <a name="Top" id="Top"></a>
   <?php if(isset($page['show_skins_menu']) && $page['show_skins_menu']):?>

@@ -403,7 +403,7 @@
 
 /* sidebar second  */
 #sidebar-second-wrapper > .grid-inner  {
-  background: #bbaea4;
+  background: none;
   border: 1px solid #d1cdc9;
   padding: 20px;
 }
