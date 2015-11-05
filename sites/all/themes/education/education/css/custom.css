@@ -1,0 +1,238 @@
+/** GENERAL **/
+
+.view-news .views-field-field-image {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.view-news  .views-field-view-node {
+	clear:both;
+	float:right;
+}
+
+#sidebar-second-wrapper .views-field-field-image {
+	float:none;
+}
+
+#breadcrumb-wrapper {
+	display:none;
+}
+
+.view-news .views-row {
+	clear:both;
+}
+
+.view-lineas-investigacion .views-row {
+	margin-bottom:30px;
+}
+
+@media (max-width: 979px) {
+
+	[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+	    display: block;
+	    float: none;
+	    width: 100%;
+	    margin-left: 0px;
+	    box-sizing: border-box;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.row {
+		margin-left: 0px; 
+	}
+}
+
+.view-vista-lineas-de-investigaci-n-rotativa h4 {
+	padding-left:5px !important;
+	padding-right:5px !important;
+}
+
+/** LOGO & SLOGAN**/
+@media (max-width: 1199px) {
+	#logo {
+		top:-43px !important;
+		width: 95px;
+		left: -8px;
+	}
+	#logo img {
+		width: 95px !important;
+	}
+
+	#name-and-slogan {
+		left: 92px;
+		top: 8px;
+	}
+
+}
+
+@media (max-width: 979px) {
+	#name-and-slogan {
+		font-size: 11px;
+	}
+}
+
+
+/** HEADER **/
+#main-menu-wrapper .region-main-menu {
+	padding-left: 16px;
+}
+
+#main-menu-wrapper .row {
+	margin-left: -46px;
+}
+
+#main-menu-wrapper .tb-megamenu .nav li.dropdown.active > .dropdown-toggle {
+	background-color: #e2e3e3;
+	color: #fff !important;
+}
+
+#main-menu-wrapper .tb-megamenu .mega-nav > .active a, 
+#main-menu-wrapper .tb-megamenu .dropdown-menu .mega-nav > .active a {
+	background-color: #eee;
+	color: #000;
+}
+
+@media (max-width: 1199px) and (min-width: 980px){
+
+	#main-menu-wrapper .region-main-menu{
+		padding-left:0px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 720px) {
+	#main-menu-wrapper {
+		width: initial !important;
+		position: initial !important;
+	}
+
+	.tb-megamenu .btn-navbar:hover,
+	.tb-megamenu .btn-navbar:focus,
+	.responsive-menu-button:hover, 
+	.responsive-menu-button:focus {
+		background-color:#0C0703 !important;
+		color:#FFF !important;
+	}
+
+	.tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse .dropdown-menu a {
+		background-color:#e2e3e3;
+		}
+}
+
+@media (max-width: 719px){
+	#main-menu-wrapper {
+		width: initial !important;
+		position: initial !important;
+	}
+}
+
+/** SLIDER **/
+#slideshow-wrapper {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (max-width: 719px){
+	#slideshow-wrapper {
+		display:none;
+	}
+}
+
+/** FOOTER **/
+#panel-forth-wrapper .panel-forth-2 {
+		display:none !important;
+	}
+
+#panel-forth-wrapper .panel-forth-1 img{
+	float:left;
+}
+
+#panel-forth-wrapper .panel-forth-1 img:first-child{
+	margin-top:18px;
+}
+
+@media (min-width:  1200px){
+	#panel-forth-wrapper .panel-forth-3 {
+		width:400px;
+		float:right;
+		margin-left:0px;
+	}
+	#panel-forth-wrapper .panel-forth-4 {
+		width:266px;
+		float:right;
+		margin-left:0px;
+	}
+	
+	#panel-forth-wrapper .panel-forth-1 {
+		width:394px;
+	}
+
+	#panel-forth-wrapper .panel-forth-1 .grid-inner {
+		padding-right:0px;
+		
+	}
+}
+
+@media (min-width:980px) and (max-width:1199px){
+
+	
+	#panel-forth-wrapper .grid-inner {
+		padding-left:0px;
+		padding-right:0px;
+		
+	}
+
+	#panel-forth-wrapper .panel-forth-4 {
+		width:160px;
+		margin-left:0px;
+		float:right;
+	}
+
+	#panel-forth-wrapper .panel-forth-3 {
+		width:360px;
+		float:right;
+		margin-left:10px;
+		
+	}
+
+	#panel-forth-wrapper .panel-forth-1 {
+		width:374px;
+	}
+
+}
+
+@media (max-width:979px){
+
+	#panel-forth-wrapper .panel-forth-1 {
+		float:none;
+		margin: 0 auto;
+		width:374px;
+	}
+
+
+	#panel-forth-wrapper .panel-forth-3,#panel-forth-wrapper .panel-forth-4 {
+		clear:both;
+		width:374px;
+		float:none;
+		margin: 0 auto;
+		
+	}
+
+	#panel-forth-wrapper .grid-inner {
+		padding-left:0px;
+		padding-right:0px;
+		
+	}
+
+}
+
+/** FOOTER **/
+
+#block-block-2 {
+	background-image: url(../images/logo-geneos.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+	background-size: 30px 30px;
+	padding:5px 30px;
+}
+

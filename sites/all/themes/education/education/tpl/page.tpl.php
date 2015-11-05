@@ -81,7 +81,7 @@
   <!-- //HEADER -->
 
   <?php if($main_menu = render($page['main_menu'])): ?>
-    <div id="main-menu-wrapper" class="wrapper">
+    <div id="main-menu-wrapper" class="wrapper container">
       <div class="container">
         <div class="row">
           <div class="span12 clearfix">
@@ -110,7 +110,7 @@
 
 <!-- SLIDESHOW lo pase aca Cesar -->
      <?php if($slideshow = render($page['slideshow'])): ?>
-           <div id="slideshow-wrapper" class="wrapper">
+           <div id="slideshow-wrapper" class="wrapper container">
                 <?php print $slideshow; ?>
            </div>
       <?php endif;?>

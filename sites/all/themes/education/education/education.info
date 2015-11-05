@@ -11,6 +11,7 @@ stylesheets[all][] = css/menu.css
 stylesheets[all][] = css/screen.css
 ;stylesheets[all][] = css/colors/pink/style.css
 ;stylesheets[all][] = css/colors/blue/style.css
+stylesheets[all][] = css/custom.css
 
 ; Responsive
 stylesheets[only screen and (min-width: 980px) and (max-width: 1199px)][] = 'css/screens/tablet.css'
