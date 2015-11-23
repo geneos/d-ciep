@@ -118,7 +118,7 @@
 
 #main-menu-wrapper li.expanded:hover > a,
 #main-menu-wrapper li.expanded:focus > a {
-  background: #e2e3e3; /*#0c0703;*/
+  background: #b7b7b7;adadad /*#0c0703;*/
   color: #fff;
 }
 
@@ -135,14 +135,14 @@
 
 .tb-megamenu .nav > li > a:focus,
 .tb-megamenu .nav > li > a:hover {
-  background-color: #e2e3e3; /*#0c0703;*/  
+  background-color: #adadad; /*#0c0703;*/  
   color: #fff;  
 }
 
 .tb-megamenu .nav > .active > a,
 .tb-megamenu .nav > .active > a:hover,
 .tb-megamenu .nav > .active > a:focus {
-  background-color: #e2e3e3;
+  background-color: #adadad;
   color: #fff !important;
 }
 
